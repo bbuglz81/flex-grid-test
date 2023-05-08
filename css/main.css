@@ -97,15 +97,40 @@ textarea {
 
 
 html {
-  background-color: #404a57;
+  background-color: #33383f;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Dosis', sans-serif;
+    padding: 2em;
+    font-size: 1.25em;
+    height: 100%;
+    color: antiquewhite;
+    text-align: left;
+    background: url(../img/pexels-matheus-natan-3394939.jpg) no-repeat;
+    background-size: cover;
+}
+
+header, footer, main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: #0fe1ec solid 5px;
+    border-radius: 25px;
+    line-height: 1.5em;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+header {
+    font-size: 3em;
+    font-family: 'Press Start 2P'
+}
+
+main {
+    font-size: 1.5em;
 }
 
 .wrapper {
@@ -116,25 +141,19 @@ body {
   font-weight: 700;
 }
 
-.div-1, .div-2, .div-3 {
+#div-1, #div-2, #div-3 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
-  color: black;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.25em;
   height: 300px;
-  background: url(../img/pexels-guna-sekar-1486612.jpg) no-repeat center center;
-  background-size: cover;
-  border: #434a53 solid 5px;
-  border-radius: 25px;
   text-align: center;
-}
+  background: rgba(80, 75, 75, .5);
+  border: rgb (80, 75, 75) solid 1px;
+  border-radius: 25px;
 
-.div-3 {
-    text-decoration: underline;
-    font-style: italic;
 }
 
 
@@ -217,6 +236,13 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width 1200px) {
+
+}
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
